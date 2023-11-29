@@ -1,0 +1,108 @@
+import streamlit as st
+
+
+st.set_page_config(page_title="Live market", page_icon=":skull:", layout="centered")
+
+
+with st.container():
+    st.subheader("SMP ITEM MARKET")
+    st.title("LIVE OFFERS:")
+    live_offer = '<p style="color:white; font-size: 25px;">ENCHANTED DIAMOND PICKAXE (Fortune III; Unbreaking IV)</p>'
+    st.markdown(live_offer, unsafe_allow_html=True)
+    best_offer = '<p style="color:#97a1a6; font-size: 20px;">BEST OFFER: 96 diamonds (1.5 stack) + 2 stacks Lapis</p>'
+    st.markdown(best_offer, unsafe_allow_html=True)
+     #to add a hyperlink, do [text](link)
+
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.subheader("BEST OFFERS:")
+        #st.header() 
+        st.write("Sculk Shrieker")
+        st.write("---")
+        st.write("Enchanted diamond sword (Bane of Anthropod IV; Knockback II)")
+        st.write("---")
+        st.write("Enchanted diamond pickaxe (Silk touch; Unbreaking V/ Unbreaking IV; Efficiency IV)")
+        st.write("---")
+        st.write("Enchanted diamond pickaxe (Efficiency IV)")
+        st.write("---")
+        st.write("Enchanted diamond pickaxe (Fortune III)")
+        st.write("---")
+        st.write("Enchanted diamond leggings (Protection III; Unbreaking III)")
+        st.write("---")
+        st.write("Disc (C418 - 11)")
+        st.write("---")
+        st.write("Book (Channeling)")
+        st.write("---")
+        st.write("Horse Armor (Diamond/ Gold/ Iron)")
+        st.write(" ")
+        st.write(" ")
+        st.write("---")
+        st.write("Saddle")
+        st.write("---")
+        st.write("Nametag")
+        st.write("---")
+        st.write("Enchant an item (Level 30)")
+        st.write("---")
+        st.write("20 diamonds")
+        st.write("---")
+        st.write("20 diamonds")
+        st.write("---")
+        st.write("128 diamonds")
+        st.write("---")
+        st.write("10 diamonds")
+
+    with right_column:
+        st.subheader("PRICE TAG:")
+        st.write("64 diamonds/ 5 stacks Sculk")
+        st.write("---")
+        st.write("2 diamonds/ brand new diamond sword/ 30 Sculks")
+        st.write(" ")
+        st.write("---")
+        st.write("2/2.5 stacks diamonds")
+        st.write(" ")
+        st.write(" ")
+        st.write("---")
+        st.write("30 blaze rods/ 15 diamonds/ 64 sculks")
+        st.write("---")
+        st.write("45 diamonds + 3 stacks Lapis/ 3 stacks Sculk")
+        st.write("---")
+        st.write("30 diamonds/ 2 stacks Sculk")
+        st.write(" ")
+        st.write(" ")
+        st.write("---")
+        st.write("30 diamonds/ 2 stacks Sculk")
+        st.write("---")
+        st.write("30 diamonds/ 2 stacks Sculk")
+        st.write("---")
+        st.write("30/10/5 diamonds + 2/2/1 stacks of cooked meat")
+        st.write(" ")
+        st.write(" ")
+        st.write("---")
+        st.write("5 diamonds/ 1 stack of cooked meat")
+        st.write("---")
+        st.write("2 diamonds")
+        st.write("---")
+        st.write("5 diamonds + 10 Lapis")
+        st.write("---")
+        st.write("Unraided fortress coordinates")
+        st.write("---")
+        st.write("Unraided bastion coordinates")
+        st.write("---")
+        st.write("Unraided mansion coordinates")
+        st.write("---")
+        st.write("Unraided outpost coordinates")
+
+
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns((1,4))
+    with left_column:
+        #st.header() 
+        st.write("Market by mxoav")
+        st.write("")
+        
+    with right_column:
+        st.write("Last updated: 8:53pm GMT+7; 11/12/2023")
